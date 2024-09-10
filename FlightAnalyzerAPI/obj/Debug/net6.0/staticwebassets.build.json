@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "6DspKZTzWfs0f0PvwYITP1dkoCF5GDEE3ng9cmNuxuU=",
+  "Source": "FlightAnalyzerAPI",
+  "BasePath": "_content/FlightAnalyzerAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

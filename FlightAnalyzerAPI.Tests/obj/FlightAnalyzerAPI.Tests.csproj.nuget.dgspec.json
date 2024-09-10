@@ -1,0 +1,165 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\arfas\\OneDrive\\Documents\\QOCO\\FlightAnalyzerAPI\\FlightAnalyzerAPI.Tests\\FlightAnalyzerAPI.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\arfas\\OneDrive\\Documents\\QOCO\\FlightAnalyzerAPI\\FlightAnalyzerAPI.Tests\\FlightAnalyzerAPI.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\arfas\\OneDrive\\Documents\\QOCO\\FlightAnalyzerAPI\\FlightAnalyzerAPI.Tests\\FlightAnalyzerAPI.Tests.csproj",
+        "projectName": "FlightAnalyzerAPI.Tests",
+        "projectPath": "C:\\Users\\arfas\\OneDrive\\Documents\\QOCO\\FlightAnalyzerAPI\\FlightAnalyzerAPI.Tests\\FlightAnalyzerAPI.Tests.csproj",
+        "packagesPath": "C:\\Users\\arfas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arfas\\OneDrive\\Documents\\QOCO\\FlightAnalyzerAPI\\FlightAnalyzerAPI.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\arfas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\arfas\\OneDrive\\Documents\\QOCO\\FlightAnalyzerAPI\\FlightAnalyzerAPI\\FlightAnalyzerAPI.csproj": {
+                "projectPath": "C:\\Users\\arfas\\OneDrive\\Documents\\QOCO\\FlightAnalyzerAPI\\FlightAnalyzerAPI\\FlightAnalyzerAPI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoFixture": {
+              "target": "Package",
+              "version": "[4.18.1, )"
+            },
+            "AutoFixture.AutoMoq": {
+              "target": "Package",
+              "version": "[4.18.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.7.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.6.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.4.2, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\arfas\\OneDrive\\Documents\\QOCO\\FlightAnalyzerAPI\\FlightAnalyzerAPI\\FlightAnalyzerAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\arfas\\OneDrive\\Documents\\QOCO\\FlightAnalyzerAPI\\FlightAnalyzerAPI\\FlightAnalyzerAPI.csproj",
+        "projectName": "FlightAnalyzerAPI",
+        "projectPath": "C:\\Users\\arfas\\OneDrive\\Documents\\QOCO\\FlightAnalyzerAPI\\FlightAnalyzerAPI\\FlightAnalyzerAPI.csproj",
+        "packagesPath": "C:\\Users\\arfas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arfas\\OneDrive\\Documents\\QOCO\\FlightAnalyzerAPI\\FlightAnalyzerAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\arfas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
